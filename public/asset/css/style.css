@@ -1,0 +1,134 @@
+input[type="text"], input[type="email"], input[type="password"], input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+select{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+}
+.name{
+    white-space: nowrap !important;
+}
+
+label {
+    font-weight: bold;
+}
+.head1 {
+    font-size: 3rem !important;
+    text-align: center;
+    margin-top: 50px;
+    color: #1a2c3d !important;
+
+
+}
+#btn1{
+    background-color: #4CAF50 !important;
+    color: white;
+    padding: 14px 0px;
+    margin: 5%2%;
+    border: none;
+    cursor: pointer;
+    width: 15%;
+    border-radius: 5px;
+   font-weight: bold;
+}
+#btn2{
+    background-color: #af514c !important;
+    color: white;
+    padding: 14px 20px;
+    margin: 5%2%;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    border-radius: 5px;
+}
+#btn3{
+    background-color: #6098d8 !important;
+    color: white;
+    padding: 14px 20px;
+    margin: 5%2%;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    border-radius: 5px;
+}
+#btn4{
+    background-color: red !important;
+    color:white;
+    padding: 14px 20px;
+    margin: 5%2%;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    border-radius: 5px;
+}
+#btn5{
+    background-color: red !important;
+    color: white;
+    padding: 14px 20px;
+    margin: 5%2%;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    border-radius: 5px;
+}
+#btn6{
+    background-color: rgb(255, 196, 0) !important;
+    color: black;
+    padding: 14px 20px;
+    margin: 5%2%;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    border-radius: 5px;
+}
+.error {
+    color: red;
+
+}
+
+body {
+   background-color: #cec9bc !important; /* Blue to light blue to green */
+}
+
+.navbar {
+     background-color:  #BDB395 !important;
+
+}
+.navbar-brand { color: #1a2c3d !important;
+    font-size: 2rem !important;
+}
+.navbar-nav {
+
+    --bs-nav-link-color: #1a2c3d !important;
+    font-size: 1.25rem !important;
+}
+
+footer {
+    background-color: #BDB395 !important;
+}
+
+.table-dark {
+    --bs-table-bg: #1a2c3d !important;
+    --bs-table-striped-bg: #5a6a7a !important;
+}
